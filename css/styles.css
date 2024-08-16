@@ -3,12 +3,6 @@
 
 /*font-family: 'Roboto', sans-serif;*/
 
-
-
-
-
-
-
 .logo {
 	display: inline-block;
 	width: 80px;
@@ -27,14 +21,11 @@ stroke-width:3;
 stroke: #cc3d6b;
 }*/
 
-
-
 #onehealthybite:hover {
 	fill:#ffcc00;
 	transition: fill .5s ease-out;
 
 }
-
 
 .navbar-brand {
 	font-size: 1.4rem;
