@@ -60,27 +60,26 @@ a {
 
 .heroHomePage {	
 	filter: brightness(50%);
-	background-image: url("../img/trafik.jpeg");
+	background-image: url("../img/back.jpeg");
 	background-size:cover;
-
-	height: 50vh;
+	filter: blur(3px) brightness(50%);
+	height: 25vh;
 }
 
 .heroAbout {
 	filter: brightness(50%);
-
-	background-image: url("../img/trafik.jpeg");
+	background-image: url("../img/back.jpeg");
 	background-size:cover;
-	height: 50vh;
+	height: 25vh;
 }
 
 
 .heroContact {
 	filter: brightness(50%);
 
-	background-image: url("../img/trafik.jpeg");
+	background-image: url("../img/back.jpeg");
 	background-size:cover;
-	height: 50vh;
+	height: 25vh;
 }
 
 
