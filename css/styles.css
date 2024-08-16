@@ -67,21 +67,27 @@ a {
 	color: #FFF;
 }
 
-.heroHomePage {
-	background-image: url("../img/aekapln1.jpg");
+.heroHomePage {	
+	filter: brightness(50%);
+	background-image: url("../img/trafik.jpeg");
 	background-size:cover;
+
 	height: 50vh;
 }
 
 .heroAbout {
-	background-image: url("../img/aekapln1.jpg");
+	filter: brightness(50%);
+
+	background-image: url("../img/trafik.jpeg");
 	background-size:cover;
 	height: 50vh;
 }
 
 
 .heroContact {
-	background-image: url("../img/aekapln1.jpg");
+	filter: brightness(50%);
+
+	background-image: url("../img/trafik.jpeg");
 	background-size:cover;
 	height: 50vh;
 }
@@ -89,7 +95,7 @@ a {
 
 .display-5 {
 	color: #FFFFFF;
-	font-weight: 900;
+	font-weight: 300;
 	font-family: 'Roboto', sans-serif;
 }
 
