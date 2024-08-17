@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ÖZEL KIRAÇ SÜRÜCÜ</title>
+<title>Özel Kıraç Sürücü Kursu</title>
 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
@@ -77,14 +77,59 @@
         </li>
 
 		<li class="nav-item">
-			<a class="nav-link" href="iletisim.html" >Galeri</a>               
-		  </li>
+			<a class="nav-link" href="galeri.html" >Galeri</a>               
+		</li>
+
       </ul>
     </div>
   </div>
 </nav>	
 
 <!--navigation-->
+
+<!--carousel-->
+<div id="carouselRecipe" class="carousel slide carousel-fade" data-ride="carousel">
+	<ol class="carousel-indicators">
+		<li data-target="#carouselRecipe" data-slide-to="0" class="active"></li>
+		<li data-target="#carouselRecipe" data-slide-to="1"></li>
+		<li data-target="#carouselRecipe" data-slide-to="2"></li>
+	</ol>
+	<div class="carousel-inner">
+		<div class="carousel-item active" data-interval="3000">
+			<img src="img/kia.jpg" class="d-block w-100" alt="Cake">
+			<div class="carousel-caption d-none d-md-block">
+				<h5>Özel Kıraç Sürücü Kursu:</h5>
+				<p>Güvenli Sürüşün Anahtarı!</p>
+			</div>
+		</div>
+
+		<div class="carousel-item" data-interval="3000">
+			<img src="img/ehliyet.jpeg" class="d-block w-100" alt="Sushi">
+			<div class="carousel-caption d-none d-md-block">
+				<h5>A1-A2 ve B Tipi Ehliyetin Adresi:</h5>
+				<p>Özel Kıraç Sürücü Kursu, Güvenle Yola Çık!</p>
+			</div>
+		</div>
+
+		<div class="carousel-item" data-interval="3000">
+			<img src="img/sinif.jpg" class="d-block w-100" alt="Food">
+			<div class="carousel-caption d-none d-md-block">
+				<h5>2013’ten Beri Sürüşte Fark Yaratan Deneyim:</h5>
+				<p>Özel Kıraç Sürücü Kursu!</p>
+			</div>
+		</div>
+
+	</div>
+	<a class="carousel-control-prev" href="#carouselRecipe" role="button" data-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="visually-hidden">Previous</span>
+	</a>
+	<a class="carousel-control-next" href="#carouselRecipe" role="button" data-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="visually-hidden">Next</span>
+	</a>
+</div>
+<!-- /Carousel -->
 	
 <!--hero section-->
 <section class="heroHomePage d-flex align-items-center">
@@ -174,7 +219,7 @@
 	<div class="row">
 		<div class="col-md-7 m-auto">
 		<h3>Tarihçemiz</h3>
-		<p>Sürücü kursumuz, 2014 yılında güvenli ve bilinçli sürücüler yetiştirme hedefiyle kuruldu. İlk günden itibaren kaliteli eğitim anlayışımızla, yüzlerce sürücü adayına ehliyet kazandırmanın gururunu yaşıyoruz. Yıllar içinde deneyimli eğitmen kadromuz ve modern eğitim araçlarımızla, sektörde güvenilir bir isim haline geldik. Her geçen yıl daha da büyüyerek, sürücü adaylarına en iyi hizmeti sunmaya devam ediyoruz. Misyonumuz, trafikte güvenliği ön planda tutan, bilinçli sürücüler yetiştirmektir.</p>
+		<p>Sürücü kursumuz, 2013 yılında güvenli ve bilinçli sürücüler yetiştirme hedefiyle kuruldu. İlk günden itibaren kaliteli eğitim anlayışımızla, yüzlerce sürücü adayına ehliyet kazandırmanın gururunu yaşıyoruz. Yıllar içinde deneyimli eğitmen kadromuz ve modern eğitim araçlarımızla, sektörde güvenilir bir isim haline geldik. Her geçen yıl daha da büyüyerek, sürücü adaylarına en iyi hizmeti sunmaya devam ediyoruz. Misyonumuz, trafikte güvenliği ön planda tutan, bilinçli sürücüler yetiştirmektir.</p>
 		</div>
 		<div class="col-md-3"> <img src="img/kirac.jpg" alt="history" class="img-fluid my-1">
 		</div>
@@ -183,10 +228,16 @@
 </section>
 <!--HISTORY-->	
 
-	
-	
+<!--maps-->
+<div style="width: 100%">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.6281967154396!2d28.657109576077723!3d41.03338957134709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b55f452930a039%3A0xd1ee4ce76dd52243!2zw5Z6ZWwgS8SxcmHDpyBTw7xyw7xjw7wgS3Vyc3U!5e0!3m2!1sen!2sse!4v1723839747442!5m2!1sen!2sse" width="100%" height="450" style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
 
-	
+<!--maps-->
+
+
+
+
 <!--Footer	-->
 	<footer class="py-5 mt-5">
 		<div class="container">
@@ -195,11 +246,16 @@
 				
 				<!--1st column-->
 				<section class="col-md-5">
-				<h4 class="display-6 mb-3">Linkler</h4>
+				<h4 class="display-6 mb-3">Sayfalar</h4>
 				<ul class="list-unstyled">
+					<li class="my-1"><a href="index.html">Anasayfa</a></li>
+
 					<li class="my-1"><a href="hakkimizda.html">Hakkımızda</a></li>
 					
 					<li class="my-1"><a href="iletisim.html">İletişim</a></li>
+
+					<li class="my-1"><a href="galeri.html">Galeri</a></li>
+
 				</ul>
 				</section>
 				

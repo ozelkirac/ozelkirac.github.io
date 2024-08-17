@@ -63,6 +63,43 @@ a.nav-link.active {
 	color:#fff !important;
 }
 
+
+/*carousel style*/
+.carousel-caption h5 {
+	font-weight: 700;
+	font-size: 3rem;
+	font-family: 'Roboto', sans-serif;	
+	color: #fff;
+	}
+	
+	.carousel-caption p {
+	font-weight: 300;
+	font-size: 2rem;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	}
+	
+	.carousel-indicators li {
+		width: 15px;
+		height: 15px;
+		border-radius:50%;
+		margin-left: 7px;
+		background-color: #fff;
+		opacity: .8;
+	}
+	
+	.carousel-indicators .active {
+		background-color: #ffcc00;
+		
+	}
+	
+	
+	/*.carousel-inner img{
+		height: 70vh;
+		
+	}*/
+
+
 a {
 	color: #FFF;
 }
@@ -172,40 +209,12 @@ font-size: 1.4rem;
 	background-color: #CFFFe5;
 }
 
-/*carousel style*/
-.carousel-caption h5 {
-font-weight: 700;
-font-size: 3rem;
-font-family: 'Roboto', sans-serif;	
-color: #fff;
-}
-
-.carousel-caption p {
-font-weight: 300;
-font-size: 2rem;
-font-family: 'Roboto', sans-serif;
-color: #fff;
-}
-
-.carousel-indicators li {
-	width: 15px;
-	height: 15px;
-	border-radius:50%;
-	margin-left: 7px;
-	background-color: #fff;
-	opacity: .8;
-}
-
-.carousel-indicators .active {
-	background-color: #ffcc00;
-	
-}
 
 
-/*.carousel-inner img{
-	height: 70vh;
-	
-}*/
+
+
+
+
 
 
 
