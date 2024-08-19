@@ -3,12 +3,27 @@
 
 /*font-family: 'Roboto', sans-serif;*/
 
-.logo {
+/* .logo {
 	display: inline-block;
 	width: 80px;
 	height: 80px;
-}
+} */
 
+
+.header {
+	background-color: slategray;
+	text-align: left;
+	padding: 20px;
+
+
+  }
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 25;
+height: 25;
+}
 
 .st0{
 	fill:none;
@@ -89,7 +104,7 @@ a.nav-link.active {
 	}
 	
 	.carousel-indicators .active {
-		background-color: #ffcc00;
+		background-color: lightslategray ;
 		
 	}
 	
@@ -106,7 +121,7 @@ a {
 
 .heroHomePage {	
 	filter: brightness(50%);
-	/* background-image: url("../img/back.jpeg"); */
+	/* background-image: url("../img/isaretler.jpeg"); */
 	background-size:cover;
 	filter: brightness(50%);
 	height: 5vh;
@@ -116,6 +131,7 @@ a {
 	filter: brightness(50%);
 	background-image: url("../img/back.jpeg");
 	background-size:cover;
+	scale: 100%;
 	height: 25vh;
 }
 
@@ -188,20 +204,12 @@ a {
 	background-color: #fdfdfd;
 }
 
-i.far.fa-clock::before{
-	color: #AEAEAE;
-	font-size:1.2rem;
-}
-
-section i{
-font-size: 1.4rem;
-	align-self: center;
-	margin: 10px;
-	color: #ACACAC;
-}
-
-.btn-outline-info:hover {
-	color: #fff;
+.boyut {
+	object-fit: cover;
+	width: 100%;
+	height: 300px;
+	object-position: center 40%;
+	
 }
 
 /*Form*/
