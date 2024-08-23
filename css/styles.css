@@ -128,8 +128,8 @@ a {
 }
 
 .heroAbout {
-	filter: brightness(50%);
-	background-image: url("../img/back.jpeg");
+	filter: brightness(30%);
+	background-image: url("../img/hero.jpeg");
 	background-size:cover;
 	scale: 100%;
 	height: 25vh;
@@ -137,9 +137,9 @@ a {
 
 
 .heroContact {
-	filter: brightness(50%);
+	filter: brightness(30%);
 
-	background-image: url("../img/back.jpeg");
+	background-image: url("../img/hero.jpeg");
 	background-size:cover;
 	height: 25vh;
 }
